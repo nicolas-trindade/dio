@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">   
+    <title>Super Nintendo Flix</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!--responsive-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">SUPERNESFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Ação</a>
+                <a href="#">Aventura</a>
+                <a href="#">RPG</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="jogo-principal">
+            <div class="container">
+                <h3 class="titulo">Super Mario World</h3>
+                <p class="descricao">Mario, Luigi e Yoshi partem para enfrentar os desafios das 7 regiões diferentes explorando a Terra dos Dinossauros, durante a jornada Mario e Luigi seguem Bowser, derrotando os Koopalings durante o processo. Eles finalmente se infiltram no castelo de Bowser para a batalha final, até enfim derrotar mais uma vez o terrível vilão e salvar a princesa e os habitantes da Terra dos Dinossauros.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="redirecionarVideo()">
+                        <i class="fas fa-play"></i> <!--ADICIONA O ICONE DE PLAY-->
+                        VER VIDEO
+                    </button>
+                    <button role="button" class="botao" onclick="redirecionarWiki()">
+                        <i class="fas fa-info-circle"></i> <!--ADICIONA O ICONE DE INFO-->
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class=carrosel-jogos>
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="redirecionarWikiAnimaniacs()">                
+                <img class= "box-jogos" src="img/animaniacs.jpg" alt="ANIMANIACS" srcset="">                
+            </div>
+            <div class="item" onclick="redirecionarWikiDKC()">
+                <img class= "box-jogos" src="img/dkc1.jpg" alt="DONKEY KONG COUNTRY 1" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiDKC2()">
+                <img class= "box-jogos" src="img/dkc2.jpg" alt="DONKEY KONG COUNTRY 2" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiDKC3()">
+                <img class= "box-jogos" src="img/dkc3.jpg" alt="DONKEY KONG COUNTRY 3" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiISSDeluxe()">
+                <img class= "box-jogos" src="img/issdeluxe.jpg" alt="INTERNATIONAL SUPERSTAR SOCCER DELUXE" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiKI()">
+                <img class= "box-jogos" src="img/killer-instinct.jpg" alt="KILLER INSTINCT" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiSR()">
+                <img class= "box-jogos" src="img/sunset-riders.jpg" alt="SUNSET RIDERS" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiSB5()">
+                <img class= "box-jogos" src="img/super-bomberman-5.jpg" alt="SUPER BOMBERMAN 5" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiSMALL()">
+                <img class= "box-jogos" src="img/super-mario-allstars.jpg" alt="SUPER MARIO ALLSTARS" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiTLV()">
+                <img class= "box-jogos" src="img/the-lost-vikings.jpg" alt="THE LOST VIKINGS" srcset="">
+            </div>
+            <div class="item" onclick="redirecionarWikiTMNT4()">
+                <img class= "box-jogos" src="img/tmnt4.jpg" alt="TEENAGE MUTANT NINJA TURTLES" srcset="">
+            </div>           
+            <div class="item" onclick="redirecionarWikiSF2()">
+                <img class= "box-jogos" src="img/street-fighter-2.jpg" alt="STREET FIGHTER 2" srcset="">
+            </div>
+            
+            <div class="item" onclick="redirecionarWikiZelda()">
+                <img class= "box-jogos" src="img/The-Legend-of-Zelda-A-Link-to-the-Past.png" alt="THE LEGEND OF THE ZELDA - A LINK TO THE PAST" srcset="">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e1f38d2c94.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <!--JS-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
